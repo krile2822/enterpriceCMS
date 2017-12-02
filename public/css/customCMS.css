@@ -1,0 +1,186 @@
+@font-face {
+		font-family: "myfont";
+    src: url("/jollyany/fonts/southernaire_personal_use_only.woff") format('woff');
+} /* Font defined, but is not used yet */
+
+.ui-menu {
+		width: 180px;
+		font-size: 12;
+		z-index: 3;
+}
+
+span.fancytree-icon { position: relative;}
+span.fancytree-childcounter {
+		color: #fff;
+		background: #428BCA;
+		/*  border: 1px solid gray; */
+		position: absolute;
+		top: -6px;
+		right: -6px;
+		min-width: 10px;
+		height: 10px;
+		line-height: 1;
+		vertical-align: baseline;
+		border-radius: 10px; /*50%;*/
+		padding: 2px;
+		text-align: center;
+		font-size: 9px;
+}
+
+.draggable,.droppable {
+		border: 1px solid green;
+		border-radius:2px;
+		padding: 2px;
+		background-color: #FFF;
+}
+/* Prevent scrolling while DND */
+ul.fancytree-container {
+		position: inherit;
+        outline: none !important;
+}
+/* Fancytree extension 'table' */
+table.fancytree-ext-table {
+		font-size: 80%;
+		width: 100%;
+}
+table.fancytree-ext-table tbody tr:nth-child(even){
+		background-color: #f4f4f8;
+}
+table.fancytree-ext-table tbody tr td {
+		border: 1px solid lightgray;
+}
+
+/* Fancytree extension 'columnview' */
+table.fancytree-ext-columnview {
+		font-size: 80%;
+		border-collapse: collapse;
+		width: 100%;
+}
+table.fancytree-ext-columnview tbody tr { height: 200px;}
+.panel-fancytree > .panel-body { padding: 2px;}
+.panel-fancytree > .panel-heading { padding-top: 2px;padding-right: 2px;}
+.panel-fancytree .well { margin-bottom: 7px;padding-top: 6px; padding-bottom: 6px;}
+.panel-fancytree .panel-heading{ padding-bottom: 1px; }
+.panel-fancytree .panel-heading input{ padding: 2px 5px 4px; font-size: 15px; line-height: 22px;border: 1px solid #CCC;border-radius: 4px;}
+
+#draggableSample, #droppableSample {
+		height:100px;
+		padding:0.5em;
+		width:150px;
+		border:1px solid #AAAAAA;
+}
+#draggableSample {
+		background-color: silver;
+		color:#222222;
+}
+#droppableSample {
+		background-color: maroon;
+		color: white;
+}
+#droppableSample.drophover {
+		border: 1px solid green;
+}
+
+#images img {
+    /*width: 85px;
+    height: 85px;*/
+    height: 80px;
+    width: 70% !important;
+    cursor: pointer;
+}
+
+label.error {
+    color: red !important;
+}
+
+.close{
+  color:red !important;
+}
+
+.img-wrap {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+}
+
+.img-wrap .close {
+    color: red;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 100;
+    padding: 5px 2px 2px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: .2;
+    text-align: center;
+    font-size: 30px;
+    line-height: 10px;
+    border-radius: 50%;
+
+}
+
+.img-wrap:hover .close {
+    opacity: 1;
+    color:red;
+}
+
+.content {
+    min-height: 0px !important;
+}
+
+.ui-state-default {
+    border: none !important;
+}
+
+.nav-tabs-custom > .tab-content {
+    padding: 0px !important;
+}
+
+#sortable {
+    width: 100% !important;
+    margin: 0px !important;
+    padding-left: 7% !important;
+}
+
+#sortable li {
+    width: 130px !important;
+}
+
+.table-vh > td {
+    padding-top: 1.5vh !important;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+#ajax-loader {
+    display: none;
+    position: absolute;
+    top:50%;
+    left:40%;
+    z-index: 9999;
+}
+
+.box {
+    border-top: none !important;
+}
+
+.conf-popup {
+    width: 20% !important;
+}
+
+.install-module-button {
+    text-align: center;
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
+}

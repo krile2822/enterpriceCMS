@@ -1,0 +1,58 @@
+/*
+ * Custom CSS for modifying the Elementy template
+ */
+
+#main-menu .navbar .nav>li>a {
+  color: #fff !important;
+}
+
+.header-1 #main-menu .navbar .nav>li.current>a {
+  border-bottom: 1px solid #60bde1;
+}
+
+#footer4 {
+  background: #324d96;
+}
+
+.header-wrapper {
+  background: #324d96 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #324d96;
+}
+
+.bg-gray-light {
+  background-color: #fff !important;
+  border-top: 0.3px solid rgba(50, 70, 150, 0.18);
+}
+
+
+/*.heading-underline h1, .heading-underline h2, .heading-underline h3, .heading-underline h4, .heading-underline h5, .heading-underline h6 {
+  border-bottom: 1px solid #324d96 !important;
+}*/
+
+.transition {
+  /*title row - Try white background under big title*/
+  border-bottom: 1px solid rgba(128, 128, 128, 0.22);
+}
+
+.blog-cat-icon {
+  background-color: transparent;
+}
+
+.ml {
+  margin-left: 15px;
+}
+
+.blog-categories li a:hover .blog-cat-icon {
+  background-color: #324d96;
+}
+
+tr {
+  color: black;
+}
+
+hr {
+  border-color: #324d96 !important;
+}

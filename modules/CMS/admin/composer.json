@@ -1,0 +1,11 @@
+{
+    "name": "cms/admin",
+    "authors": [
+        {
+            "name": "Krisztian Pinter",
+            "email": "krisztian.pinter@icbtech.rs"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
